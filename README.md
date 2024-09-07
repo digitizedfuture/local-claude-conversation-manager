@@ -1,4 +1,4 @@
-# Chat Log System Documentation
+# Local Claude Conversation Manager Documentation
 
 ## Overview
 
@@ -6,13 +6,13 @@ The Chat Log System is a sophisticated git-like mini-system for managing local c
 
 ## System Structure
 ```
-chat_log_system/
+local_claude_conversation_manager/
 ├── api_key.txt
 ├── cli/
 │   ├── chat.py
 │   ├── review_chat.py
-│   ├── compress_information.py
-│   ├── expand_information.py
+│   ├── compress_chat.py
+│   ├── expand_chat.py
 │   └── replay_chat.py
 ├── logs/
 │   └── [chat_key]/
@@ -42,10 +42,10 @@ Key features:
 #### review_chat.py
 Allows users to review past conversations in single message or whole conversation mode.
 
-#### compress_information.py
+#### compress_chat.py
 Compresses chat data for efficient storage and analysis.
 
-#### expand_information.py
+#### expand_chat.py
 Expands compressed conversation data for detailed review.
 
 #### replay_chat.py
