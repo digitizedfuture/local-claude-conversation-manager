@@ -5,8 +5,7 @@
 The Chat Log System is a sophisticated git-like mini-system for managing local chat logs from Claude with advanced data manipulation features. It provides a robust framework for capturing, organizing, and analyzing chats with AI assistants.
 
 ## System Structure
-
-\`\`\`
+```
 chat_log_system/
 ├── api_key.txt
 ├── cli/
@@ -27,8 +26,7 @@ chat_log_system/
 │           └── default.json
 └── configs/
     └── chat.json
-\`\`\`
-
+```
 ## Key Components
 
 ### 1. CLI Scripts
