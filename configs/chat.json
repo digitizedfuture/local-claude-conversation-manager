@@ -1,0 +1,5 @@
+{
+    "use_previous_context": "true",
+    "use_custom_context": "false",
+    "robot_role": "You are an expert in AI systems design. Provide detailed, technical responses."
+}
